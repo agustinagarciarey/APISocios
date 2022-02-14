@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/agustina/Escritorio/utn/Programación III/CodeFirstPracticaFinal/CodeFirstPracticaFinal/CodeFirstPracticaFinal.csproj": {}
+  },
+  "projects": {
+    "/home/agustina/Escritorio/utn/Programación III/CodeFirstPracticaFinal/CodeFirstPracticaFinal/CodeFirstPracticaFinal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/agustina/Escritorio/utn/Programación III/CodeFirstPracticaFinal/CodeFirstPracticaFinal/CodeFirstPracticaFinal.csproj",
+        "projectName": "CodeFirstPracticaFinal",
+        "projectPath": "/home/agustina/Escritorio/utn/Programación III/CodeFirstPracticaFinal/CodeFirstPracticaFinal/CodeFirstPracticaFinal.csproj",
+        "packagesPath": "/home/agustina/.nuget/packages/",
+        "outputPath": "/home/agustina/Escritorio/utn/Programación III/CodeFirstPracticaFinal/CodeFirstPracticaFinal/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/agustina/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.413/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
